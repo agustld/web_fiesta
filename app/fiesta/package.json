@@ -1,11 +1,11 @@
 {
-  "name": "wedding-landing-page",
+  "name": "fiesta-website",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3001",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3001",
     "lint": "next lint"
   },
   "dependencies": {
@@ -23,9 +23,6 @@
     "autoprefixer": "^10.4.0",
     "eslint": "^8.0.0",
     "eslint-config-next": "^14.0.0"
-  },
-  "engines": {
-    "node": ">=18.17.0"
   }
 }
 
